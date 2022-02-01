@@ -3,7 +3,7 @@ Sync jobs are used to copy or move existing emails from an external IMAP server 
 !!! info
     Depending on your mailbox's ACL you may not have the option to add a sync job. Please contact your domain administrator if so.
 
-## Setup a Sync Job
+## Setup a Sync Job (text)
 1. In the "Mail Setup" or "User Settings" interface, create a new sync job.
 
 2. If you are an administrator, select the username of the downstream mailcow mailbox in the "Username" dropdown.
@@ -18,5 +18,11 @@ Sync jobs are used to copy or move existing emails from an external IMAP server 
 
 7. Make sure to tick "Active" and click "Add".
 
+## Setup a sync job (graphical)
+See https://goneuland.de/mailcow-e-mails-von-anderen-servern-importieren/ (in German language).
+
 !!! info
     Once Completed, log into the mailbox and check if all emails are imported correctly. If all goes well, all your mails shall end up in your new mailbox. And don't forget to delete or deactivate the sync job after it is used.
+
+!!! info
+Sync_job is based on imapsync. Full documentation and all possible options, see https://imapsync.lamiral.info/#doc and search for "readme". Direct link to the linux doc: https://imapsync.lamiral.info/README
